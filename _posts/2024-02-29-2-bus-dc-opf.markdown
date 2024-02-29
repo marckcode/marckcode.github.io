@@ -12,9 +12,11 @@ There are some necessary conditions that make the DC power flow acceptable as an
 2. The voltage magnitudes are approximately $1$ pu.
 
 ```mermaid
-graph LR
-    A[Bus 1] -- Generator --> B[Bus 1]
-    C[Bus 2] -- Generator --> D[Bus 2]
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
 
 \begin{align}
