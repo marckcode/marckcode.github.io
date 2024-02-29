@@ -62,3 +62,9 @@ def power_flow_limits(m):
     return inequality(-m.P12_max, m.P12, m.P12_max)
 m.power_flow_limits = Constraint(rule=power_flow_limits)
 ```
+
+<pre>
+def power_flow_limits(m):
+    return inequality(-m.P12_max, m.P12, m.P12_max)
+m.power_flow_limits = Constraint(rule=power_flow_limits)
+</pre>
