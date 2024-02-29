@@ -1,37 +1,16 @@
-let blocks = document.querySelectorAll("pre");
+document.addEventListener("DOMContentLoaded", function () {
+    let codeBlocks = document.querySelectorAll("pre");
 
-blocks.forEach((block) => {
-    if (!navigator.clipboard) {
-        return;
-    }
+    codeBlocks.forEach(function (block) {
+        let copyButton = document.createElement("button");
+        copyButton.className = "button-copy-code";
+        copyButton.textContent = "Copy";
 
-    let button = document.createElement("button");
-    button.className = "button-copy-code";
-    button.innerHTML = copyIcon;
-    block.appendChild(button);
+        copyButton.addEventListener("click", async function () {
+            await navigator.clipboard.writeText(block.textContent);
+            alert("Code copied to clipboard!");
+        });
 
-    button.addEventListener("click", async () => {
-        await copyCode(block);
+        block.appendChild(copyButton);
     });
 });
-
-async function copyCode(block) {
-    let copiedCode = block.cloneNode(true);
-    copiedCode.removeChild(copiedCode.querySelector("button.button-copy-code"));
-
-    const html = copiedCode.outerHTML.replace(/<[^>]*>?/gm, "");
-
-    block.querySelector("button.button-copy-code").innerHTML = copiedIcon;
-    setTimeout(function () {
-        block.querySelector("button.button-copy-code").innerHTML = copyIcon;
-    }, 2000);
-
-    const parsedHTML = htmlDecode(html);
-
-    await navigator.clipboard.writeText(parsedHTML);
-}
-
-function htmlDecode(input) {
-    const doc = new DOMParser().parseFromString(input, "text/html");
-    return doc.documentElement.textContent;
-}
