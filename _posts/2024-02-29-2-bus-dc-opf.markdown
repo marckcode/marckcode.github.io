@@ -26,14 +26,14 @@ $\large \delta_1 &= 0$
 
 
 \begin{align}
-  V_{sphere} = \frac{4}{3}\pi r^3 \label{eq:test1}
+	\underset{P_g,\delta_i}{\text{min}} \hspace{0.2cm} OF &= \sum_{g_1,g_2} a_g P_{g}^2 + b_g P_{g} + c_g \label{eq:test1}
+	P_{ij} &= \frac{\delta_1 - \delta_2}{X_{12}} \label{eq:test2}
+	P_{g_1} &= P_{12} \label{eq:test3}
+	P_{g_2} + P_{12} &= L_2 \label{eq:test4}
+	-P_{12}^{max} \le P_{12} \le P_{12}^{max} \label{eq:test5}
+	\delta_1 &= 0 \label{eq:test6}
 \end{align}
 
-In Eq. $\eqref{eq:test1}$ you can see...while in Eq. $\eqref{eq:test2}$...
-
-\begin{align}
-  V_{cube} = l w h \label{eq:test2}
-\end{align}
 
 
 
