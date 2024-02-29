@@ -11,6 +11,16 @@ There are some necessary conditions that make the DC power flow acceptable as an
 
 2. The voltage magnitudes are approximately $1$ pu.
 
+$$
+\begin{equation}
+\large \underset{P_g,\delta_i}{\text{min}} \hspace{0.2cm} OF &= \sum_{g_1,g_2} a_g P_{g}^2 + b_g P_{g} + c_g$$
+\large P_{ij} &= \frac{\delta_1 - \delta_2}{X_{12}}$$
+\large P_{g_1} &= P_{12}$$
+\large P_{g_2} + P_{12} &= L_2$$
+\large -P_{12}^{max} \le P_{12} \le P_{12}^{max}$$
+\large \delta_1 &= 0$$
+\end{equation}
+$$
 
 ```python
 def OF(m):
