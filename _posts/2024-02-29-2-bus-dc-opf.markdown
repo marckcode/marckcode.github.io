@@ -7,7 +7,7 @@ categories: Python Pyomo Optimization
 
 There are some necessary conditions that make the DC power flow acceptable as an approximate solution for AC power flow such as:
 
-1. The ratio of $\frac{x_{ij}}{/r_{ij}}$ should be large enough that $r_{ij}$ can be neglected.
+1. The ratio of $\frac{x_{ij}}{r_{ij}}$ should be large enough that $r_{ij}$ can be neglected.
 
 2. The voltage magnitudes are approximately $1$ pu.
 
@@ -37,3 +37,8 @@ def power_flow_limits(m):
 m.power_flow_limits = Constraint(rule=power_flow_limits)
 ```
 
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
