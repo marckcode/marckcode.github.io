@@ -27,7 +27,7 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: marckllerena
+    #twitter: marckllerena
     github:  marckcode
     linkedIn: in/marck-llerena-669614150
     instagram: marckllerena
