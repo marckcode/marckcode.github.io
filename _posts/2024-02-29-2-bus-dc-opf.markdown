@@ -13,27 +13,27 @@ There are some necessary conditions that make the DC power flow acceptable as an
 
 
 \begin{align}
-	\underset{P_g,\delta_i}{\text{min}} \hspace{0.2cm} OF &= \sum_{g_1,g_2} a_g P^2_{g} + b_g P_{g} + c_g \label{eq:test1}
+	\Large \underset{P_g,\delta_i}{\text{min}} \hspace{0.2cm} OF &= \Large \sum_{g_1,g_2} a_g P_{g}^2 + b_g P_{g} + c_g \label{eq:test1}
 \end{align}
 
 \begin{align}
-	P_{ij} &= \frac{\delta_1 - \delta_2}{X_{12}} \label{eq:test2}
+	\Large P_{ij} &= \Large \frac{\delta_1 - \delta_2}{X_{12}} \label{eq:test2}
 \end{align}
 
 \begin{align}
-	P_{g_1} &= P_{12} \label{eq:test3}
+	\Large P_{g_1} &= \Large P_{12} \label{eq:test3}
 \end{align}
 
 \begin{align}
-	P_{g_2} + P_{12} &= L_2 \label{eq:test4}
+	\Large P_{g_2} + P_{12} &= \Large L_2 \label{eq:test4}
 \end{align}
 
 \begin{align}
-	-P^{max}_{12} \le P_{12} \le P^{max}_{12} \label{eq:test5}
+	\Large -P_{12}^{max} \le P_{12} \le P_{12}^{max} \label{eq:test5}
 \end{align}
 
 \begin{align}
-   \delta_1 &= 0 \label{eq:test6}
+	\Large \delta_1 &= \Large 0 \label{eq:test6}
 \end{align}
 
 
