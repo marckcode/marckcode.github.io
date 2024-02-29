@@ -37,8 +37,3 @@ def power_flow_limits(m):
 m.power_flow_limits = Constraint(rule=power_flow_limits)
 ```
 
-```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
-```
