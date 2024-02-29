@@ -29,7 +29,7 @@ There are some necessary conditions that make the DC power flow acceptable as an
 \end{align}
 
 \begin{align}
-	\Large -P_{12}^{max} \le P_{12} \le P_{12}^{max} \label{eq:test5}
+	\Large -P_{max} \le P_{12} \le P_{max} \label{eq:test5}
 \end{align}
 
 \begin{align}
