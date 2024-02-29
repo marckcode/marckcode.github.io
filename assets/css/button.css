@@ -5,9 +5,9 @@
     cursor: pointer;
     position: absolute;
     margin: 5px 0;
-    padding: 1.75rem 0 1.75rem 1rem;
-    top: 85px;
-    right: 15px;
+    padding: 5px 10px;
+        top: 35px;
+        right: 5px;
 }
 
 .button-copy-code:hover {
