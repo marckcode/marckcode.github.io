@@ -13,3 +13,5 @@ The main reasons to analyze the magnitude of load ramps, specially net load ramp
     <li>Net Load Ramp quantification.</li>
     <li>Avoid “Cycling” damage in thermal power plants.</li>
 </ol>
+
+<img src="../imgs/load_evolve.png">
