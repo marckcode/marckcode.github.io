@@ -5,60 +5,11 @@ date:   2024-06-20 13:30:00 +0530
 categories: Load Ramp Analysis
 ---
 
-There are some necessary conditions that make the DC power flow acceptable as an approximate solution for AC power flow such as:
+The main reasons to analyze the magnitude of load ramps, specially net load ramps (NL) in the brazilian system, are listed as follows:
 
-1. The ratio of $\frac{x_{ij}}{r_{ij}}$ should be large enough that $r_{ij}$ can be neglected.
-
-2. The voltage magnitudes are approximately $1$ pu.
-
-
-\begin{align}
-	\Large \underset{P_g,\delta_i}{\text{min}} \hspace{0.2cm} OF &= \Large \sum_{g_1,g_2} a_g P_{g}^2 + b_g P_{g} + c_g \label{eq:test1}
-\end{align}
-
-\begin{align}
-	\Large P_{ij} &= \Large \frac{\delta_1 - \delta_2}{X_{12}} \label{eq:test2}
-\end{align}
-
-\begin{align}
-	\Large P_{g_1} &= \Large P_{12} \label{eq:test3}
-\end{align}
-
-\begin{align}
-	\Large P_{g_2} + P_{12} &= \Large L_2 \label{eq:test4}
-\end{align}
-
-\begin{align}
-	\Large -P_{12}^{max} \le P_{12} \le P_{12}^{max} \label{eq:test5}
-\end{align}
-
-\begin{align}
-	\Large \delta_1 &= \Large 0 \label{eq:test6}
-\end{align}
-
-
-
-```python
-def OF(m):
-    return sum(m.a[g]*m.P[g]**2 + m.b[g]*m.P[g] + m.c[g] for g in m.GEN)
-m.OF = Objective(rule=OF, sense=minimize)
-
-def active_power_balance(m):
-    return m.P[1] == m.P12
-m.active_power_balance = Constraint(rule=active_power_balance)
-
-def power_balance(m):
-    return m.P[2] + m.P12 == m.L2 / m.Sbase
-m.power_balance = Constraint(rule=power_balance)
-
-def angle_difference(m, i):
-    if i > 1:
-        return m.P12 == (m.delta[i-1] - m.delta[i]) / m.X12
-    else:
-        return Constraint.Skip
-m.angle_difference = Constraint(m.BUS, rule=angle_difference)
-
-def power_flow_limits(m):
-    return inequality(-m.P12_max, m.P12, m.P12_max)
-m.power_flow_limits = Constraint(rule=power_flow_limits)
-```
+<ol>
+    <li>Integration of large shares of inverter-based sources (IBS) in the national grid.</li>
+    <li>Increase power system “Flexibility” requirements.</li>
+    <li>Net Load Ramp quantification.</li>
+    <li>Avoid “Cycling” damage in thermal power plants.</li>
+</ol>
