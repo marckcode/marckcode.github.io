@@ -41,5 +41,4 @@ Following this, the Net Load will allow us to identify situations where the oper
 
 This approach can be easily explained by doing a shift in the hourly historical dataset, as can be seen in the following plots for $\Delta_t = 1$ and $\Delta_t = 12$:
 
-<center><img src="/assets/post2/rampt1.png"></center>
-<center><img src="/assets/post2/rampt12.png"></center>
+<center><img src="/assets/post2/ramptotal.png"></center>
