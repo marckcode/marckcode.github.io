@@ -14,7 +14,12 @@ The main reasons to analyze the magnitude of load ramps, specially net load ramp
     <li>Avoid “Cycling” damage in thermal power plants.</li>
 </ol>
 
-It is noted that this work was inspired in the analysis that GridStatus made on the CAISO and ERCOT power grid systems.
-To read more about it, refer to <a href="https://blog.gridstatus.io/net-load-ramps/">GridStatus/Net-Load-Ramps</a>
+It is important to note that this work was inspired in the analysis that GridStatus made on the CAISO and ERCOT power grid systems.
+To read more about it, refer to <a href="https://blog.gridstatus.io/net-load-ramps/" target="_blank">GridStatus/Net-Load-Ramps</a>
+
+This article related to the ENGIE Brazil project called "Methodologies for Identification of Operational Constraints in Energy Systems with High
+Penetration of Variable Renewable Energy Sources" (FERV, in portuguese), outlines the relevance of the Net Load Ramp analysis and its repercusion 
+on the brazilian power grid of the future.
 
 <center><img src="/assets/load_evolve.png"></center>
+
