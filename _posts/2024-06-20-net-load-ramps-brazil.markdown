@@ -14,4 +14,4 @@ The main reasons to analyze the magnitude of load ramps, specially net load ramp
     <li>Avoid “Cycling” damage in thermal power plants.</li>
 </ol>
 
-<img src="../assets/load_evolve.png">
+<img src="/assets/load_evolve.png">
