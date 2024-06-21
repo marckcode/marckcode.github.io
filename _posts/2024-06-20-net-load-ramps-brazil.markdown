@@ -2,7 +2,7 @@
 layout: post
 title:  "Load Ramp Analysis (Brazilian Case)"
 date:   2024-06-20 13:30:00 +0530
-categories: Load Ramp Analysis
+categories: Load Ramping Renewables
 ---
 
 The main reasons to analyze the magnitude of load ramps, specially net load ramps (NL) in the brazilian system, are listed as follows:
@@ -31,6 +31,13 @@ The approach taken to calculate the ramp magnitudes is as follows:
 
 This ramp value will provide insights into the magnitude, frequency, and duration of perturbations in the system.
 The value of $h$ will depend on the Case analyzed, currently for the Brazilian Power System, the values of $1$, $3$, $5$, $7$ and $12$ are considered.
+It never hurts to check the diference on the analysis that is made about the ramping issues for every power system out there. So the specialized literature 
+was studied and a self-explanatory table was made:
+
+<center><img src="/assets/post2/ramp_table.png"></center>
+
+    $|^4$ A. González-Dumar, S. Arango-Aramburo, C.M. Correa-Posada. “Quantifying power system flexibility for the energy transition in Colombia”. 
+
 
 Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction.
 
