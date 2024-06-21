@@ -38,7 +38,7 @@ Following this, the Net Load will allow us to identify situations where the oper
 	NL = Load - P_{solar} - P_{wind} \label{eq:test2}
 \end{align}
 
-
 This approach can be easily explained by doing a shift in the hourly historical dataset, as can be seen in the following plots for $\Delta_t = 1$ and $\Delta_t = 12$:
 
 <center><img src="/assets/post2/ramptotal.png"></center>
+
