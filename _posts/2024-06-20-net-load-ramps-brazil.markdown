@@ -21,7 +21,7 @@ This article related to the ENGIE Brazil project called "Methodologies for Ident
 Penetration of Variable Renewable Energy Sources" (FERV, in portuguese), outlines the relevance of the Net Load Ramp analysis and its repercusion 
 on the brazilian power grid of the future.
 
-<center><img src="/assets/post2/load_evolve.png"></center>
+<center><img src="/assets/post2/load_evolve_2.png"></center>
 
 The approach taken to calculate the ramp magnitudes is as follows:
 
@@ -30,7 +30,7 @@ The approach taken to calculate the ramp magnitudes is as follows:
 \end{align}
 
 This ramp value will provide insights into the magnitude, frequency, and duration of perturbations in the system.
-The value of $h$ will depend on the Case analyzed, currently for the Brazilian Power System, the values of 1, 3, 5, 7 and 12 are considered for h.
+The value of $h$ will depend on the Case analyzed, currently for the Brazilian Power System, the values of $1$, $3$, $5$, $7$ and $12$ are considered.
 
 Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction.
 
@@ -39,4 +39,7 @@ Following this, the Net Load will allow us to identify situations where the oper
 \end{align}
 
 
+This approach can be easily explained by doing a shift in the hourly historical dataset, as can be seen in the following plots for $\Delta_t = 1$ and $\Delta_t = 12$:
 
+<center><img src="/assets/post2/rampt1.png"></center>
+<center><img src="/assets/post2/rampt12.png"></center>
