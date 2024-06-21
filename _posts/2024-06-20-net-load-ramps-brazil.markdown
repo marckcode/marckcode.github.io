@@ -14,4 +14,7 @@ The main reasons to analyze the magnitude of load ramps, specially net load ramp
     <li>Avoid “Cycling” damage in thermal power plants.</li>
 </ol>
 
-<img src="/assets/load_evolve.png">
+It is noted that this work was inspired in the analysis that GridStatus made on the CAISO and ERCOT power grid systems.
+To read more about it, refer to <a href="https://blog.gridstatus.io/net-load-ramps/">GridStatus/Net-Load-Ramps</a>
+
+<center><img src="/assets/load_evolve.png"></center>
