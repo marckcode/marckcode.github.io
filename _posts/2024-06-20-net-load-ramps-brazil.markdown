@@ -38,19 +38,19 @@ was studied and a self-explanatory table was made:
 
 <center><img src="/assets/post2/ramp_table.png"></center>
 
-    A. González-Dumar, S. Arango-Aramburo, C.M. Correa-Posada. “Quantifying power system flexibility for the energy transition in Colombia”. 
+- A. González-Dumar, S. Arango-Aramburo, C.M. Correa-Posada. “Quantifying power system flexibility for the energy transition in Colombia”. [<a href="https://www.sciencedirect.com/science/article/pii/S0142061523006713" target="_blank">Link</a>]
 
-    Huber M., Dimkova D., Hamacher T. “Integration of wind and solar power in Europe: Assessment of flexibility requirements”. 
+- Huber M., Dimkova D., Hamacher T. “Integration of wind and solar power in Europe: Assessment of flexibility requirements”. [<a href="https://www.sciencedirect.com/science/article/pii/S0360544214002680" target="_blank">Link</a>]
 
-    Lannoye E. “Flexibility in Power Systems”. Irish Research Council for Science. 
+- Lannoye E. “Flexibility in Power Systems”. Irish Research Council for Science. [<a href="https://www.eprg.group.cam.ac.uk/wp-content/uploads/2010/03/Eamonn-Lannoye.pdf" target="_blank">Link</a>]
 
-    T.A. Deetjen, J.D. Rhodes, M.E. Webber. “The impacts of wind and solar on grid flexibility requirements in the Electric Reliability Council of Texas (ERCOT)”. 
+- T.A. Deetjen, J.D. Rhodes, M.E. Webber. “The impacts of wind and solar on grid flexibility requirements in the Electric Reliability Council of Texas (ERCOT)”. [<a href="https://www.sciencedirect.com/science/article/pii/S0360544217301950" target="_blank">Link</a>]
 
-    Nethercutt, Elliott J. "The Intersection of Decarbonization Policy Goals and Resource Adequacy Needs: A California Case Study (CAISO)”.
+- Nethercutt, Elliott J. "The Intersection of Decarbonization Policy Goals and Resource Adequacy Needs: A California Case Study (CAISO)”. [<a href="https://pubs.naruc.org/pub/55D05995-155D-0A36-315C-A161357DA070" target="_blank">Link</a>]
 
-    Economic Regulation Authority. "Decision on the Australian Energy Market Operator’s 2022/23 ancillary services requirements (AEMO)."  
+- Economic Regulation Authority. "Decision on the Australian Energy Market Operator’s 2022/23 ancillary services requirements (AEMO)." [<a href="https://www.erawa.com.au/cproot/22738/2/ERAs-decision-on-the-AEMOs-2022-23-ancillary-service-requirements.pdf" target="_blank">Link</a>]
 
-Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction.
+Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction. [<a href="" target="_blank">Link</a>]
 
 \begin{align}
 	NL = Load - P_{solar} - P_{wind} \label{eq:test2}
