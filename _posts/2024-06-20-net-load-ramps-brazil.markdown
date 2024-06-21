@@ -50,7 +50,7 @@ was studied and a self-explanatory table was made:
 
 - Economic Regulation Authority. "Decision on the Australian Energy Market Operator’s 2022/23 ancillary services requirements (AEMO)." [<a href="https://www.erawa.com.au/cproot/22738/2/ERAs-decision-on-the-AEMOs-2022-23-ancillary-service-requirements.pdf" target="_blank">Link</a>]
 
-Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction. [<a href="" target="_blank">Link</a>]
+Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction.
 
 \begin{align}
 	NL = Load - P_{solar} - P_{wind} \label{eq:test2}
