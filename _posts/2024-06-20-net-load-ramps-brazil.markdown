@@ -21,6 +21,8 @@ This article related to the ENGIE Brazil project called "Methodologies for Ident
 Penetration of Variable Renewable Energy Sources" (FERV, in portuguese), outlines the relevance of the Net Load Ramp analysis and its repercusion 
 on the brazilian power grid of the future.
 
+The plot below shows the typical behaviour of the Load in the Brazilian power grid for the first week of October in 2023.
+
 <center><img src="/assets/post2/load_evolve_2.png"></center>
 
 The approach taken to calculate the ramp magnitudes is as follows:
@@ -37,12 +39,16 @@ was studied and a self-explanatory table was made:
 <center><img src="/assets/post2/ramp_table.png"></center>
 
     A. González-Dumar, S. Arango-Aramburo, C.M. Correa-Posada. “Quantifying power system flexibility for the energy transition in Colombia”. 
-    Huber M., Dimkova D., Hamacher T. “Integration of wind and solar power in Europe: Assessment of flexibility requirements”. 
-    Lannoye E. “Flexibility in Power Systems”. Irish Research Council for Science. 
-    T.A. Deetjen, J.D. Rhodes, M.E. Webber. “The impacts of wind and solar on grid flexibility requirements in the Electric Reliability Council of Texas (ERCOT)”. 
-    Nethercutt, Elliott J. "The Intersection of Decarbonization Policy Goals and Resource Adequacy Needs: A California Case Study (CAISO)”.
-    Economic Regulation Authority. "Decision on the Australian Energy Market Operator’s 2022/23 ancillary services requirements (AEMO)."  
 
+    Huber M., Dimkova D., Hamacher T. “Integration of wind and solar power in Europe: Assessment of flexibility requirements”. 
+
+    Lannoye E. “Flexibility in Power Systems”. Irish Research Council for Science. 
+
+    T.A. Deetjen, J.D. Rhodes, M.E. Webber. “The impacts of wind and solar on grid flexibility requirements in the Electric Reliability Council of Texas (ERCOT)”. 
+
+    Nethercutt, Elliott J. "The Intersection of Decarbonization Policy Goals and Resource Adequacy Needs: A California Case Study (CAISO)”.
+
+    Economic Regulation Authority. "Decision on the Australian Energy Market Operator’s 2022/23 ancillary services requirements (AEMO)."  
 
 Following this, the Net Load will allow us to identify situations where the operator curtails the production of a renewable park due to overproduction.
 
