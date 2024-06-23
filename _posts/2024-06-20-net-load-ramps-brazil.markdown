@@ -60,3 +60,6 @@ This approach can be easily explained by doing a shift in the hourly historical 
 
 <center><img src="/assets/post2/ramptotal.png"></center>
 
+For a better understanding of the changes occurred in the Load Curve, next is shown a plot with ramp intensities classified in a range of colors with the **RdBu** color map. The indices of the maximums and minimums are taken, in order to plot the respective ramps in a given period of time.
+
+<center><img src="/assets/post2/ramp_intensity.png"></center>
