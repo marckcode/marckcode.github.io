@@ -63,3 +63,12 @@ This approach can be easily explained by doing a shift in the hourly historical 
 For a better understanding of the changes occurred in the Load Curve, next is shown a plot with ramp intensities classified in a range of colors with the **RdBu** color map. The indices of the maximums and minimums are taken, in order to plot the respective ramps in a given period of time.
 
 <center><img src="/assets/post2/ramp_intensity.png"></center>
+
+Together with this analysis, it can be seen in the following plot the change of load comsumption from year 2022 to 2023, where an increase in the total load and net load is given for the last months of the year, meanwhile in 2022 there's an increase in load at the beginning of the year. This difference can be confirmed by the heat wave that attacked brazilian regions last year.
+
+<center><img src="/assets/post2/load_heatplot.png"></center>
+
+
+In the same way, the 1-hour ramps have the same pattern for both years, except that for the year 2023, there's a considerably increase in the load and variable renewable generation, as can be seen in periods from 7h to 13h and the classic increase from 18h to 22h. This plot was made taking the mean of every hour in every day of the month, to better visualize the load behavior along the years.
+ 
+<center><img src="/assets/post2/ramp_heatplot.png"></center>
